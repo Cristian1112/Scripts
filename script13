@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ $# -le 0 ]
+then
+echo "No has puesto ninguna ruta"
+elif [ -d $1 ]
+then
+echo "Si existe la ruta"
+else
+echo "La ruta que has puesto no es válida"
+fi

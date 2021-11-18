@@ -1,0 +1,5 @@
+#!/bin/bash
+
+Nscript=`basename /home/cristian/Escritorio/script5`
+
+echo "$Nscript"

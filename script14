@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [ $# -le 0 ]
+then
+echo "Escribe un fichero o directorio"
+elif [ -d $1 ]
+then
+echo "Es un directorio"
+elif [ -f  $1 ]
+then
+echo "Es un fichero"
+else
+echo "La ruta que has puesto no es válida"
+fi
+

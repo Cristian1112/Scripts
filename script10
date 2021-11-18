@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ $# == 0 ]
+then
+echo "No has introducido ningun parámetro" && exit 1
+else
+echo $#
+echo $* 
+exit 0
+fi

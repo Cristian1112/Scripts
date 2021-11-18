@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cat $2
+sleep 2
+echo $?

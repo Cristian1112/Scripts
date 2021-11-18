@@ -1,0 +1,9 @@
+#!/bin7bash
+
+if [ $# == 0 ]
+then
+echo "Introduce al menos un parámetro"
+else
+echo "$*"
+fi
+

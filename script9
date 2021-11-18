@@ -1,0 +1,17 @@
+#!/bin/bash
+
+if [ -d $1 ]
+then
+echo "Ya existe el directorio"
+else
+echo "El directorio no existe, procedemos a crearlo"
+sleep 2
+mkdir $1 && echo "La creación ha sido un exito"
+fi
+
+if [ -f $2 ]
+then
+cp $2 $1
+else
+echo "No existe el fichero"
+fi
